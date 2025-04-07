@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     margin: 0px;
     padding: 0px;
@@ -239,4 +240,247 @@ button:hover{
   
   .footer-col li a:hover {
     text-decoration: underline;
+=======
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    border: 0px;  
+}
+body{
+    font-family: 'Roboto',sans-serif;
+}
+.ok{
+    margin: 1px;
+    background-image: url(todo-list-seamless-pattern-universal-background-vector-7561340.jpg);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    padding: 10px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    height: 50px;
+}
+.imgage{
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+  }
+nav a {
+    color: black;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1rem;
+    
+}
+nav a:hover{
+  text-decoration: underline;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    margin: 40px auto;
+    align-items: center;
+    padding: 20px;
+    border: 4px solid black;
+    height: 500px;
+    width: 500px;
+    border-radius: 20px;
+    background: transparent;
+    backdrop-filter: blur(20px);
+} 
+.container-head{
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid white;
+    margin-top: 10px;
+    display: flex;
+    gap: 30px;
+    background-color: white;
+}
+.number-of-task{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background-color: #8fc9f1;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-weight:bold;
+    font-size: 30px;
+}
+.input{
+    flex:1;
+    padding: 15px 90px 5px 110px;
+    outline: none;
+    background-color: transparent;
+    border-radius: 10px;
+    margin-top: 0px;
+    text-align:center;
+    justify-content: center;
+    background-color: white;
+    color: black;
+}
+#progress{
+    width: 100%;
+    height: 10px;
+    background-color: #03f46f;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+button{
+    border-radius:35px;
+    width: 35px;
+    height: 35px;
+    outline:none;
+    border: none;
+    font-size: 30px;
+    background-color: white;
+    margin-top:20px;
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+.filters{
+    display: flex;
+    margin: 20px;
+    align-items: baseline;
+    justify-content: space-between;
+    width: 350px;
+}
+.filter{
+    height: 30px;
+    width: 90px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    color: white;
+    }
+.filter:hover{
+    background-color:#03f46f;
+    color:#050801;
+    box-shadow: 0 0 5px  #39FF14,
+                0 0 25px  #39FF14,
+                0 0 50px  #39FF14,
+                0 0 200px  #39FF14;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0005);
+}
+.delete-all{
+    height: 30px;
+    width: 90px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    color: white;
+}
+.delete-all:hover{
+    background-color:#F72119;
+    color:#050801;
+    box-shadow: 0 0 5px #F72119,
+                0 0 25px #F72119,
+                0 0 50px #F72119,
+                0 0 200px #F72119;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0005);
+}
+.task-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 30px;
+    width: 100%;
+    list-style-type:none;
+    overflow-y:auto;    
+}
+.taskItem{ 
+    width: 100%;
+    display: flex;
+   background-color: #71bdef;
+    padding: 10px;
+    border-radius: 5px;
+    justify-content: space-between;
+    align-items: center;
+}
+.task{
+    display:flex;
+    align-items: center;
+    gap: 10px;
+    }
+.checkbox{
+    width: 18px;
+    height: 18px;
+}
+.icons{
+    cursor: pointer;
+}
+/*footer code*/
+.footer {
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #ffff;
+    flex-direction: column;
+     }
+  @media (max-width: 1210px) {
+    .footer {
+        flex-direction: column;
+    }
+  }
+  
+  .foot2 {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .footer-col {
+    margin: 0 20px;
+  }
+  
+  .f-col-1 {
+    text-align: center;
+  }
+  .footer-col p {
+    color: #5e6282;
+    font-weight: 500;
+    font-size: 0.88889rem;
+  }
+  
+  .footer-col h4 {
+    color: #080809;
+    font-weight: 700;
+    font-size: 1.265rem;
+    margin-top: 0;
+  }
+  
+  .footer-col ul {
+    padding-left: 0;
+    list-style: none;
+  }
+  
+  .footer-col li {
+    margin-bottom: 0.5rem
+  }
+  
+  .footer-col li a {
+    color: #5e6282;
+    font-weight: 400;
+    text-decoration: none;
+  }
+  
+  .footer-col li a:hover {
+    text-decoration: underline;
+>>>>>>> f947e5ea183e5a1ea2af188b1d2a94a24587f695
   }
