@@ -1,5 +1,5 @@
 let tasks = [];
-document.addEventListener('DOMContentLoaded', (event) => {
+document.addEventListener('DOMContentLoaded', (event) =>{ 
     window.toggleTaskCompletion = (index) => {
         tasks[index].completed = !tasks[index].completed;
         updateTasksList();
